@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns:auto auto auto;
+                background-color: rgb(184, 51, 11);
+                padding: 10px;
+                font-size:30px;
+                text-align:center;
+            }
+            .container div{
+                background-color: #0c879cc4;
+                border: 5px solid black;
+                padding:20px;
+                font-size:30px;
+                text-align:center;
+                
+            }
+            .item1{
+                grid-column-start: 1;
+                grid-column-end: 6;
+            }
+    </style>
+    </head>
+    <body>
+        <h1>Grid Layout</h1>
+        <p>A grid layout with 7 container</p>
+        <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+
+        </div>
+    </body>
+</html>
